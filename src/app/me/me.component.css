@@ -1,0 +1,44 @@
+section{
+  position: relative;
+  top: 29.5em;
+  background-color: #6E07F3;
+  height: 35em;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Kanit';
+  color: white;
+  position: relative;
+  top: 2em;
+  font-weight: 800;
+  font-size: 3em;
+  line-height: 1.125em;
+}
+
+p{
+  color: white;
+  font-family: 'Kanit';
+  position: relative;
+  font-weight: 400 !important;
+  top: 4em;
+  font-size: 1.5em;
+  width: 30%;
+  left: 35%;
+  line-height: 1.5em;
+}
+
+@media screen and (min-width:414px){
+  section{
+    top: 9.7em;
+  }
+
+  h1{
+    font-size: 2em;
+  }
+  p{
+    font-size: 1em;
+    width: 50%;
+    left: 25%;
+  }
+}

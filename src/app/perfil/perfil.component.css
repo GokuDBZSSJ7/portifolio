@@ -1,0 +1,49 @@
+h1{
+  text-align: center;
+  color: #141c3a;
+  font-weight: 800;
+  font-size: 3rem !important;
+  margin-top: 2em;
+}
+
+h4{
+  margin-top: 2em;
+  text-align: center;
+  color: #141c3a;
+  font-size: 1rem;
+}
+
+#eu{
+  width: 20%;
+  border-radius: 50%;
+  border: 3px solid #141c3a;
+  position: relative;
+  left: 40%;
+  top: 0em;
+}
+
+#pc{
+  position: relative;
+    width: 65%;
+    top: 30em;
+}
+
+@media screen and (max-width:896px) {
+  h1{
+    font-size: 2em !important;
+  }
+
+  h4{
+    font-size: 0.8rem;
+  }
+
+  #eu{
+    width: 40%;
+    left: 30%;
+  }
+
+  #pc{
+    top: 10em;
+    left: 20%;
+  }
+}

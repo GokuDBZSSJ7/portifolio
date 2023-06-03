@@ -1,0 +1,79 @@
+.container{
+  max-width: 980px;
+  margin: 0 auto;
+  position: relative;
+  top: 20em;
+}
+
+.caixa{
+  height: 45em;
+  background-color: white;
+  border: 1px solid #E6ECF8;
+  border-radius: 30px;
+}
+
+.card{
+  width: 50%;
+  display: inline-block;
+}
+
+.rigth{
+  float: right;
+}
+
+.border{
+  border-right: 1px solid #E6ECF8;
+  height: 50em;
+}
+
+.card h1{
+  position: relative;
+  text-align: center;
+  top: 3em;
+  color: #141c3a;
+  font-weight: 800;
+}
+
+.card p{
+  position: relative;
+  top: 5em;
+  left: 25%;
+  text-align: center;
+  width: 50%;
+  font-size: 1.3em;
+  color: #141c3a;
+}
+
+.mark {
+  margin-top: 5em;
+  color: #6E07F3 !important;
+}
+
+ul li{
+  text-decoration: none;
+  list-style: none;
+  color: #141c3a;
+  position: relative;
+  top: 5em;
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+
+@media screen and (min-width:414px){
+  .container{
+    top: -2em;
+  }
+
+  .card p{
+    font-size: 1em;
+  }
+
+  ul li{
+    font-size: 1em;
+  }
+
+  .border{
+    height: 45em;
+  }
+}

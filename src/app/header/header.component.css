@@ -1,0 +1,56 @@
+nav{
+  height: 8em;
+
+}
+
+ul li{
+  display: inline;
+}
+
+ul li a{
+  position: relative;
+  color: #141c3a;
+  text-decoration: none;
+  font-family: 'Kanit';
+  padding: 0 1em;
+  top: 2.8em;
+  left: 5em;
+  font-size: 1.125em;
+}
+
+ul li a:hover{
+  color: #6E07F3;
+  transition: 1s;
+}
+
+#btn{
+  top: 2.3em;
+  float: right;
+  margin-right: 10em;
+  margin-bottom: 0.5em;
+  padding:1em  1.5em;
+  border: 3px solid #6E07F3;
+  border-radius: 9999px;
+  width: 7em;
+}
+
+#btn:hover{
+  color: white;
+  background-color: #6E07F3;
+  transition: 1s;
+}
+
+@media screen and (min-width:414px){
+  #btn{
+    position: relative;
+
+    display: inline;
+    margin-right: 12em;
+  }
+
+  .link{
+    position: relative;
+    top: 3.4em !important;
+    left: 6.5em !important;
+  }
+}
