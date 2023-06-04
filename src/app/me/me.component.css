@@ -1,6 +1,6 @@
 section{
   position: relative;
-  top: 29.5em;
+  top: 29.5em !important;
   background-color: #6E07F3;
   height: 35em;
   text-align: center;
