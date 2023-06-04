@@ -1,6 +1,6 @@
 footer{
   position: relative;
-  top: 25em;
+  top: 20em !important;
   height: 10em;
   background-color: #6E07F3;
   text-align: center;
